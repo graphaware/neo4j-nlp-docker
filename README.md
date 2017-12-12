@@ -1,6 +1,6 @@
-## GraphAware NLP with Docker
+##GraphAware NLP with Docker
 
-### Setup
+###Setup
 
 **Download this repository**
 
@@ -37,6 +37,6 @@ Requirements
 
 Make sure docker run with at least 5gb of memory :
 
-[Imgur](https://i.imgur.com/FvmGJtZ.png)
+![Imgur](https://i.imgur.com/FvmGJtZ.png)
 
 
