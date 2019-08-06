@@ -1,6 +1,6 @@
-##GraphAware NLP with Docker
+## GraphAware NLP with Docker
 
-###Setup
+### Setup
 
 **Download this repository**
 
@@ -14,9 +14,9 @@ The following downloads the necessary plugins in their snapshot version
 
 ```bash
 cd plugins
-wget https://products.graphaware.com/download/framework-server-enterprise/graphaware-server-enterprise-all-3.3.0.51.jar
-wget https://www.dropbox.com/s/ms1v6ht7zvqpufq/original-graphaware-nlp-3.3.0.51.2-SNAPSHOT.jar
-wget https://www.dropbox.com/s/bb3ugb7nm33u0k2/nlp-stanfordnlp-3.3.0.51.2-SNAPSHOT.jar
+wget https://products.graphaware.com/download/framework-server-enterprise/graphaware-server-enterprise-all-3.3.5.52.jar
+wget https://products.graphaware.com/download/nlp/graphaware-nlp-3.3.3.52.7.jar
+wget https://products.graphaware.com/download/nlp-stanford-nlp/nlp-stanfordnlp-3.3.3.52.7.jar
 ```
 
 **Return to the project directory and run**
@@ -28,15 +28,10 @@ docker-compose up
 
 **Check your neo4j instance**
 
+For documentation on using the NLP features, see [the GraphAware NLP repository](https://github.com/graphaware/neo4j-nlp)
 
-
-
----
-
-Requirements
+# Requirements
 
 Make sure docker run with at least 5gb of memory :
 
 ![Imgur](https://i.imgur.com/FvmGJtZ.png)
-
-
